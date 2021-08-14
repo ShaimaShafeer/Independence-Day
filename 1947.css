@@ -1,0 +1,48 @@
+iframe
+{
+    margin: 3%
+}
+h1{
+    font-size: 390%;
+    margin-right: 6%;
+    
+
+}
+h1
+{
+
+    text-shadow: 4px 4px 5px rgba(44, 41, 41, 0.363);
+
+}
+body
+{
+    border-right: orange 5px solid;
+    border-left: green 5px solid;
+}
+.y
+{
+    text-shadow:2px 2px orange;
+     
+}
+.y2
+{
+    text-shadow:2px 2px green;
+     
+}
+.txt
+{
+    font-size: 170%;
+    text-align: left;
+    margin-left: 9%;
+    font-style: italic;
+    font-family: freemono,monospace;
+}
+.txt{
+    text-shadow: 2px 2px 2px rgba(44, 44, 43, 0.274);
+}
+#home{
+    height:5%;
+    width: 5%;
+    float: left;
+    
+  }

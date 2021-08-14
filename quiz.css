@@ -1,0 +1,75 @@
+#after_submit {
+	visibility: hidden;
+}
+body
+
+    {
+        background-color: rgba(56, 53, 52, 0.603);
+        border-left: orange;
+        border-style: solid;
+        border-width: 0  0 0 5px;
+        
+    text-shadow: 4px 4px 5px rgba(44, 41, 41, 0.363);
+    }
+
+#sil 
+{ 
+    width:100%;
+   float: inline-end;
+}
+
+#home{
+    height:5%;
+    width: 5%;
+    float: left;
+  }
+  
+  h1
+  {
+      margin-right: 3%;
+      font-size: 80px;
+      margin-top:10px;
+  }
+
+  input[type=button] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    height:65px;
+    
+box-shadow: 4px 4px 5px rgba(44, 41, 41, 0.363);
+  }
+  
+ p{
+     text-align: justify;
+     margin-left: 44%;
+ }
+ #button1
+ {
+     background-color: orange;
+     border: none;
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    cursor: pointer;
+    width: 200px;
+    
+box-shadow: 4px 4px 5px rgba(44, 41, 41, 0.363);
+    height: 65px;
+ }
+ #button:hover
+ {
+    background-color: #555; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ #button1:hover
+ {
+    background-color: #555; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }

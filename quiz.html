@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link href="quiz.css" rel="stylesheet">
+<script src="quiz.js"></script>
+<link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <a href="index.html"><img id="home" src="home.png"></a><br>
+    <center>
+
+<h1><font color="orange">IT'S</font> <font color="white">QUIZ</font> <font color="green">TIME</font>!</h1>
+<form id="quiz" name="quiz">
+	
+	<h4>What is theme for Independence Day 2021 Celebrations? </h4>
+	
+    <p><input type="radio" id="mc" name="question1" value="Nation First, Always First">Nation First, Always First<br>
+    <input type="radio" id="mc" name="question1" value="Atmanirbhar Bharat">Atmanirbhar Bharat<br>
+    <input type="radio" id="mc" name="question1" value="India's Vocal for Local">India's Vocal for Local<br>
+    </p>
+	<h4>The National Calendar of India is based on __________ </h4>
+
+  <p>  <input type="radio" id="mc" name="question2" value="The Maurya Rule">The Maurya Rule<br>
+    <input type="radio" id="mc" name="question2" value="British dates">British dates<br>
+    <input type="radio" id="mc" name="question2" value="The Saka Era">The Saka Era<br>
+</p>
+
+
+    <h4>What do the Spokes of Ashoka Chakra Signify?</h4>
+
+   <p> <input type="radio" id="mc" name="question3" value="24 qualities of a good Indian">24 qualities of a good Indian<br>
+    <input type="radio" id="mc" name="question3" value="24 Hours of the Day">24 Hours of the Day<br>
+    <input type="radio" id="mc" name="question3" value="24 Languages spoken in India">24 Languages spoken in India<br>
+</p>
+    <h4>The Official Independence Day Celebration takes place at ________</h4>
+<p>
+    <input type="radio" id="mc" name="question4" value="Rashtrapati Bhawan">Rashtrapati Bhawan<br>
+    <input type="radio" id="mc" name="question4" value="Parliament">Parliament<br>
+    <input type="radio" id="mc" name="question4" value="Red Fort">Red Fort<br>
+</p>
+  
+    <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+</form>
+
+
+<div id="after_submit">
+	<p id="message"></p>
+<p id="number_correct"></p>
+</div>
+
+<button id="button1" onclick="myFunction()">Restart</button>
+<br>
+<img id="sil" src="bg1.png" >
+
+    </center>
+
+</body>
+</html>
